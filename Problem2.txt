@@ -10,7 +10,7 @@ O void: BubbleSort(Array, N)
 				//Swap Array[j] and Array[j+1]
 				Temp = Array[j]
 				Array[j] = Array[j+1]
-				Array[j+1] = Temp
+				Temp = Array[j+1]
 
 				//Set the flag to indicate a swap occured
 				Swapped = True
@@ -20,5 +20,5 @@ O void: BubbleSort(Array, N)
 		//If no swaps happened, the array is sorted
 		if(Swapped == False)
 			break
-		endIf
+		endif
 	endfor
