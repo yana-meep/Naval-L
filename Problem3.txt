@@ -1,7 +1,7 @@
 O integer: LCM(a,b)
 	return (ABS(a*b))/ GCD(a,b)
 
-O void: GCD(a.b)
+O integer: GCD(a.b)
 	while (b!=0)
 		temp = b
 		b = a % b
