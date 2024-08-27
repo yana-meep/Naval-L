@@ -11,10 +11,10 @@ O integer: getAgeInRange(minAge, maxAge)
 		endif
 
 		//convert input to integer if necessary
-		age <- ConvertToString(age)
+		age <- ConvertToInteger(age)
 
 		//check if the age is within the specified range
-		if(age>= minAge AND age <= maxAge
+		if(age>= minAge AND age <= maxAge)
 			//valid age entered
 			break
 		else
